@@ -39,4 +39,6 @@ build_func() {
 
 # main process
 build_func "start-ec2-instances" &&
-build_func "stop-ec2-instances"
+build_func "stop-ec2-instances" &&
+build_func "start-rds-instances" &&
+build_func "stop-rds-instances"
